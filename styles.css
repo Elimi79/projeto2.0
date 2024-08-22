@@ -78,12 +78,14 @@ section {
     height: 300px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
-.comum-img{
-    height: auto;
-    width: auto;
-    position: center;
+.comum-img {
+    max-width: 100%; /* A imagem não excederá a largura do contêiner */
+    height: auto;    /* A altura será ajustada automaticamente para manter a proporção */
+    display: block;  /* Remove espaços em branco ao redor da imagem */
+    margin: 0 auto;  /* Centraliza a imagem horizontalmente no contêiner */
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
+
 
 footer {
     background-color: #4CAF50;
